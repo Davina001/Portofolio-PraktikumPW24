@@ -1,0 +1,65 @@
+
+
+.satu {
+    background-image: url(https://th.bing.com/th/id/OIP.y3lSwlFnDhtjMMq0Z6i8JwHaHa?rs=1&pid=ImgDetMain);
+  }
+
+.dua {
+    background-color: rgb(237, 132, 120);
+
+    
+}
+
+.tiga {
+    background-color: rgb(255, 244, 223);
+   
+}
+  
+legend {
+    color: white;
+    font-family: 'Times New Roman', Times, serif ;
+    border-color: rgb(255, 255, 255) ;
+    border: 2px solid rgb(64, 132, 50);
+    border-style: double;
+    background-color: rgb(64, 132, 50);
+    border-radius: 5px;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+
+.lima {
+  background-color: rgb(64, 132, 50);
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin: 4px 2px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-variant: small-caps;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+fieldset {
+    border: 2px solid rgb(255, 255, 255);
+    border-style: double;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif ;
+
+}
+
+  h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 50px;
+    padding: 10pxx;
+    
+  }
+  
+  p {
+    font-family: cursive;
+    font-size: 20px;
+  }

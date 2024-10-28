@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULIR</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body class="satu">
+    <fieldset class="dua">
+    <h1 style="text-align: center;">Sign In</h1>
+
+    <fieldset class="tiga">
+        <legend><b cl>Data Diri</b></legend>
+        <table>
+            <tr>
+                <td><label for="dpn">Nama Depan</label></td>
+                <td><input type="text" id="dpn" name="dpn"></td>
+            </tr>
+
+            <tr>
+                <td><label for="blkng">Nama Belakang</label></td>
+                <td><input type="text" id="blkng" name="blkng"></td>
+            </tr>
+
+            <tr>
+                <td><label for="jk">Jenis Kelamin</label></td>
+
+                <td><input type="radio" id="lk" name="jk"><label for="lk">Laki-Laki</label><br>
+
+                <input type="radio" id="pr" name="jk"><label for="pr">Perempuan</label><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="agama">Agama/Kepercayaan </label></td>
+                <td><select name="agama">
+                    <option value="pilih">-- Pilih Salah Satu --</option>
+                    <option value="k">Katolik</option>
+                    <option value="p">Kristen Protestan</option>
+                    <option value="i">Islam</option>
+                    <option value="h">Hindu</option>
+                    <option value="buddha">Buddha</option>
+                    <option value="onghuchu">Konghuchu</option>
+                    <option value="ak">Aliran Kepercayaan</option>
+                </select>
+            </tr>
+
+            <tr>
+                <td><label for="goldar">Golongan Darah</label></td>
+                <td><select name="goldar">
+                    <option value="pilih">-- Pilih Salah Satu --</option>
+                    <option value="a">A</option>
+                    <option value="b">B</option>
+                    <option value="ab">AB</option>
+                    <option value="o">O</option>
+                    <option value="tdktau">Tidak tahu</option>
+                </select>
+            </tr>
+
+            <tr>
+                <td><label for="tgl">Tanggal Lahir</label></td>
+                <td><input type="date" id="tgl" name="tgl"></td>
+            </tr>
+
+            <tr>
+                <td><label for="tmpt">Tempat Lahir</label></td>
+                <td><input type="text" id="tmpt" name="tmpt"></td>
+            </tr>
+
+            <tr>
+                <td><label for="alamat">Alamat Domisili</label></td>
+                <td><textarea name="alamat" id="alamat" rows="5" cols="21" placeholder="Isi Alamat Disini"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+
+            <tr>
+                <td><label for="no">Nomor HP</label></td>
+                <td><input type="text" id="no" name="no"></td>
+            </tr>
+
+            <tr>
+                <td><label for="minat">Hobi</label></td>
+
+                <td>
+                    <input type="checkbox" id="olahraga" name="minat">
+                    <label for="olahraga">Olahraga</label><br>
+        
+                    <input type="checkbox" id="travelling" name="minat">
+                    <label for="travelling">Kesenian</label><br>
+        
+                    <input type="checkbox" id="memasak" name="minat">
+                    <label for="memasak">Memasak</label><br>
+
+                    <input type="checkbox" id="lainnya" name="minat">
+                    <label for="lainnya">Lainnya:</label>
+                    <input type="text" id="lainnya" name="minat"><br>
+                    </td>
+                </tr>
+        </table>
+    </fieldset>
+
+    <br>
+    <fieldset class="tiga">
+        <legend><b>Buat Akun</b></legend>
+        <table>
+        <td><label for="uname">Username (*)</label></td>
+            <td> <input type="text" id="uname" name="username" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="pass">Password (*)</label></td>
+            <td><input type="password" id="pass" name="password" required></td>
+           
+        </tr>
+
+        <tr>
+            <td><label for="kpass">Konfirmasi Password (*)</label></td>
+            <td><input type="password" id="kpass" name="kpassword" required></td>
+           
+        </tr>
+     
+        <br>
+
+        <table>
+            <br>
+        <tr>
+           
+            <td><input type="checkbox" id="pernyataan" name="pernyataan">
+            <label for="pernyataan">Informasi yang saya berikan sudah benar dan sesuai.</label></td>
+        </tr>
+        </table>
+
+        <tr>
+            <td><input type="submit" value="Masuk" class="lima"></td>
+        </tr>
+
+        </table> 
+    </fieldset>
+    </fieldset>
+</body>
+</html>
